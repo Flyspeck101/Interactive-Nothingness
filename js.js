@@ -1,4 +1,4 @@
-(function(){if(document.getElementById()){alert("Your browser does not support JavaScript.")}})()
+(function(){if(document.getElementById("button")){alert("Your browser does not support JavaScript.")}})()
 let content = false
 function makePage() {
   if (content) {
