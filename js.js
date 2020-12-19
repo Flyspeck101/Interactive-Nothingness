@@ -10,7 +10,7 @@ function makePage() {
     content = true
     // 1. Create the button
 var button = document.createElement("button");
-button.innerHTML = "Do Something";
+button.innerHTML = "I didn't fart!";
 
 // 2. Append somewhere
 var body = document.getElementsByTagName("body")[0];
@@ -18,7 +18,9 @@ body.appendChild(button);
 
 // 3. Add event handler
 button.addEventListener ("click", function() {
-  alert("did something");
+  var text1 = document.createElement("p");
+  text1.innerHTML = "Yes you did.";
+  body.appendChild(text1);
 });
   }
 }
