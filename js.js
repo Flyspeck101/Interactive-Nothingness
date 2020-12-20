@@ -1,5 +1,6 @@
 (function(){if(document.getElementById("button")){alert("Your browser does not support JavaScript.")}})() /* Check if Javascript is compatible */
 
+var body = document.getElementsByTagName("body")[0];
 let content = false
 let placebo = 0
 var text1 = document.createElement("span");
@@ -75,7 +76,6 @@ var button = document.createElement("button");
 button.innerHTML = "I didn't fart!";
 
 // 2. Append somewhere
-var body = document.getElementsByTagName("body")[0];
 body.appendChild(button);
 
 // 3. Add event handler
