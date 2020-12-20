@@ -54,8 +54,9 @@ function maketext1content() {
       cykablyat = "Please! I won't make it! I'm dying! Noooooooooooooooooooooo-"
       break
     default:
+      var i;
       cykablyat = "MESSAGE FROM THE CREATOR> You have somehow killed the console logger. I don't know how, since I coded him to be immortal, but he no longer exists. RIP, console logger. "
-      for (var i = 0, i < (placebo - 20), i = i + 1) {
+      for (i = 0; i < (placebo - 20); i = i + 1) {
         cykablyat += "*-* "
       }
   }
