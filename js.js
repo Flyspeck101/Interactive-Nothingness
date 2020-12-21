@@ -3,7 +3,7 @@
 var body = document.getElementsByTagName("body")[0];
 let content = false
 let placebo = 0
-var text1 = document.createElement("span");
+var text1 = document.createElement("p");
 body.appendChild(text1);
 
 function maketext1content() {
